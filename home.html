@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Exemplo</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/rodape.css">
+<link rel="icon" href="logo.ico" type="image/x-icon"> <!-- Favicon -->
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">
+            <img src="#" alt="Logo da Bubble">
+        </a>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <div class="nav-link dropdown-toggle">Saúde</div>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Biblioteca de Saúde</a></li>
+                    <li><a href="#">Ferramentas de Ajuda</a></li>
+                    <li><a href="#">Exercício</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-item nav-link" href="#sobre">Ferramentas de ajuda</a></li>
+            <li class="nav-item dropdown">
+                <div class="nav-link dropdown-toggle">Sobre</div>
+                <ul class="dropdown-menu">
+                    <li><a href="sobre_nos.html">Sobre a Bubble</a></li>
+                    <li><a href="fale_conosco.html">Fale Conosco</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-item nav-link" href="#">Gerenciar assinatura</a></li>
+        </ul>
+        <div class="navbar-actions right">
+            <a href="#" class="button">Experimente o Bubble hoje</a>
+        </div>
+    </nav>
+    
+    
+            <!-- Conteúdo principal da página -->
+        <main></main>
+
+        <footer>
+            <!-- Conteúdo do rodapé -->
+            <div id="footer_content">
+                <!-- Informações de contato -->
+                <div id="footer_contacts">
+                    <img src="#" alt="logo da empresa">
+                    <div id="footer_social_media">
+                        <!-- Links para redes sociais -->
+                        <a href="#" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer-link" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="footer-link" id="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="gtranslate_wrapper">
+                        <button onclick="resetToBrowserLanguage()">Voltar ao idioma do navegador</button>
+                    </div>
+                </div>
+    
+                <!-- Lista de links da empresa -->
+                <ul class="footer-list">
+                    <li>
+                        <h3>Empresa</h3>
+                    </li>
+                    <li>
+                        <a href="sobre_nos.html" class="footer-link">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="fale_conosco.html" class="footer-link">Fale Conosco</a>
+                    </li>
+                    <li>
+                        <a href="cental_de_ajuda.html" class="footer-link">Central de Ajuda</a>
+                    </li>
+                </ul>
+    
+                <!-- Lista de conteúdo -->
+                <ul class="footer-list">
+                    <li>
+                        <h3>Conteúdo</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Biblioteca de Saúde</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Ferramentas</a>
+                    </li>
+                </ul>
+    
+                <!-- Formulário de inscrição -->
+                <div id="footer_subscribe">
+                    <h3>Subscrever</h3>
+                    <p> Introduza o seu e-mail para receber notificações sobre a nossa resolução de problemas</p>
+    
+                    <div id="input_group">
+                        <input type="email" id="email" name="email" autocomplete="email"
+                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{1,}" required>
+                        <button id="subscribe-button">
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
+    
+                    <div id="message" style="display: none;"></div>
+                </div>
+            </div>
+     
+           <!-- Direitos autorais -->
+            <p class="footer">&copy; 2023 Desenvolvedores Inc. | Todos os direitos reservados | <a href="termos.html">Termos
+                    de uso</a> |
+                <a href="privacidade.html">Política de Privacidade</a>
+            </p>
+        </footer>
+        <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+        <script src="js/rodape.js"></script>
+        <script src="js/navbar.js"defer></script>
+</body>
+</html>

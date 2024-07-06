@@ -1,0 +1,66 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilo para os títulos das seções */
+h1,
+h2 {
+    color: black;
+}
+
+/* Estilo para as seções de conteúdo */
+section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Estilo para os links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Estilo para links quando hover (passar o mouse) */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o botão "Voltar" no topo */
+.back-button {
+    position: absolute;
+    /* Fixa o botão na parte superior da tela */
+    margin-top:20px;
+    top: 0;
+    /* Coloca o botão no topo */
+    left: 20px;
+    /* Ajuste a posição horizontal conforme necessário */
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 9999;
+    /* Garante que o botão esteja acima de outros elementos */
+}
+
+    /* Estilo para o botão "Voltar" quando hover (passar o mouse) */
+    .back-button:hover {
+        background-color: #0056b3;
+    }
